@@ -29,7 +29,19 @@ El proyecto se organiza en diferentes paquetes y clases:
 ## Algoritmo de la Máquina
 El algoritmo que controla la máquina realiza tiros aleatorios hasta que impacta directamente en una nave enemiga. Una vez que impacta, decide la dirección del siguiente disparo, y si falla, cambia de dirección hasta hundir la nave enemiga. Posteriormente, continúa buscando nuevas naves enemigas para derribar.
 
-## Instalación
-1. Clonar este repositorio en tu máquina local.
-2. Compilar el código utilizando el comando javac.
-3. Ejecutar el archivo Main.java para iniciar el juego.
+1. Clonar este repositorio en tu máquina local:
+   ```bash
+   git clone <url-repositorio>
+   cd <carpeta-repositorio>
+   ```
+
+2. Compilar el código utilizando el comando `javac`:
+   ```bash
+   cd src/
+   javac Main.java
+   ```
+
+3. Ejecutar el archivo `Main.java` para iniciar el juego:
+   ```bash
+   java Main
+   ```
