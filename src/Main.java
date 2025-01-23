@@ -7,7 +7,7 @@ public class Main {
         if (juegoCreado != null) { //El juego debe haber sido creado
             juegoCreado.preArranque(); //Se ubican las naves de cada jugador en su debido tablero
             juegoCreado.iniciar(); //Empieza el intercambio de disparos
-            System.out.println(STR."El ganador es: \{juegoCreado.getGanador().getName()}"); //Se imprime el ganador
+            System.out.println("El ganador es: " + juegoCreado.getGanador().getName()); //Se imprime el ganador
         }
         System.out.println("Finalizando..."); //Fin del programa
     }

@@ -127,7 +127,7 @@ public interface ITestable {
             System.out.println("\tFuera de rango - Intenta de nuevo");
             return true;
         } catch (Exception e) { //En caso de darse algún otro error
-            System.out.println(STR."\t\{e.getMessage()}");
+            System.out.println("\t" +e.getMessage());
             return true;
         }
     }
